@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/math"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewcalculater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="#8AFFFFFF"
+        android:fontFamily="casual"
+        android:text="calculator"
+        android:textColor="#633EBD"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/firstnumber"
+        android:layout_width="265dp"
+        android:layout_height="67dp"
+        android:layout_gravity="left"
+        android:layout_margin="20dp"
+        android:background="#72FFFFFF"
+        android:ems="10"
+        android:hint="First number"
+        android:inputType="textPersonName"
+        android:textColor="#2F0A87"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textViewadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#72FFFFFF"
+        android:fontFamily="casual"
+        android:text="add"
+        android:textColor="#633EBD"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/secondnumber"
+        android:layout_width="267dp"
+        android:layout_height="72dp"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:background="#72FFFFFF"
+        android:ems="10"
+        android:hint="Second number"
+        android:inputType="textPersonName"
+        android:textColor="#2F0A87"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/buttoncalculate"
+        android:layout_width="140dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9F0288D1"
+        android:text="calculate" />
+
+    <TextView
+        android:id="@+id/textViewtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="#72FFFFFF"
+        android:fontFamily="casual"
+        android:text="Total"
+        android:textColor="#633EBD"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+</LinearLayout>

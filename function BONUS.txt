@@ -1,0 +1,16 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int num1 = 1;
+	    Numbers (num1);
+	    
+	
+	} 
+	public static void Numbers (int num1){
+	        
+	        for (num1 = 1; num1 < 11; num1++){
+	            System.out.println( num1);
+	        }
+	        
+	}
+}
